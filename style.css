@@ -122,3 +122,47 @@ input[type='submit']:hover{
     color: black;
     font-weight: bold;
 }
+@media screen and (max-width:500px) {
+
+    header{
+        text-align: center;
+    }
+
+    .cabecalho{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cabecalho a{
+        display: block;
+        text-align: center;
+    }
+
+    main{
+        width: 80%;
+    }
+
+    .tituloprincipal{
+        font-size: 2em;
+    }
+
+    .cabecalho ul{
+        padding: 0;
+    }
+
+    .cabecalho li a{
+        font-size: 1em;
+    }
+
+    .grupo img{
+        margin: 0 auto;
+    }
+
+    label{
+        margin: 0;
+    }
+    input, textarea, input[type='submit']{
+        width: 90%;
+    }
+}
