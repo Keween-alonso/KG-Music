@@ -1,0 +1,124 @@
+body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: darkgray;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: gray;
+    padding: 1em;
+}
+
+.cabecalho{
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.cabecalho img{
+    width: 15%;
+}
+
+.cabecalho ul{
+    vertical-align: middle;
+    display: flex;
+    list-style-type: none;
+}
+
+.cabecalho ul li{
+    margin-right: 1em;
+}
+
+.cabecalho ul li:last-child{
+    margin-right: 0;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main{
+    width: 950px;
+    margin: 0 auto;
+    background: lightgray;
+    padding: 1.5em;
+}
+
+main p{
+    text-align: justify;
+}
+
+label{
+    margin-left: 240px;
+}
+
+input, textarea{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 1em;
+}
+    
+input[type='submit']{
+    margin: 20px auto;
+    padding: 10px;
+    width: 10%;
+    border-radius: 20px;
+    transition: all 0.7s;
+}
+
+.grupo{
+    background-color: gray;
+}
+
+.grupo img{
+    width: 50%;
+    margin: 0 240px;
+}
+
+.tituloprincipal{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1.5em auto;
+}
+
+li p{
+    margin: 1.5em auto;
+}
+
+li img{
+    width: 40%;
+    margin: 10px auto;
+    padding: 35px;
+}
+
+li a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+main a{
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+
+}
+
+main a:hover{
+    color: blueviolet;
+}
+
+input[type='submit']:hover{
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+}

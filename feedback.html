@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KG Music - Feedback</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <a href="index.html"><img src="imagens/KG-logo.png" alt="logo da KG"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <h1 class="tituloprincipal">Nos conte o que você achou da experiência e quais são suas dicas de melhoria para nosso app.</h1>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="numero">Número:</label>
+            <input type="text" name="numero" id="numero" required>
+
+            <label for="serie">Série:</label>
+            <input type="text" name="serie" id="serie" required>
+
+            <label for="descricao">Digite aqui a sua opinião:</label>
+            <textarea cols="100" rows="15" id="descricao" class="input-padrao"></textarea>
+
+            <input type="submit" name="Enviar">
+         </form>
+    </main>
+</body>
+</html>
