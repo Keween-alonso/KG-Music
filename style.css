@@ -122,6 +122,8 @@ input[type='submit']:hover{
     color: black;
     font-weight: bold;
 }
+/*adaptação mobile*/
+
 @media screen and (max-width:500px) {
 
     header{
@@ -149,14 +151,20 @@ input[type='submit']:hover{
 
     .cabecalho ul{
         padding: 0;
+        margin-left: 9px;
     }
 
     .cabecalho li a{
         font-size: 1em;
     }
 
+    .grupo{
+        display: flex;
+        justify-content: center;
+    }
+
     .grupo img{
-        margin: 0 auto;
+        width: 70%;
     }
 
     label{
@@ -164,5 +172,9 @@ input[type='submit']:hover{
     }
     input, textarea, input[type='submit']{
         width: 90%;
+    }
+
+    .desenvolvimento ul li img{
+        width: 70%;
     }
 }
