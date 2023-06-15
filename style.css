@@ -151,11 +151,14 @@ input[type='submit']:hover{
 
     .cabecalho ul{
         padding: 0;
-        margin-left: 9px;
+        display: block;
     }
 
+    .cabecalho li{
+        display: inline-block;
+
     .cabecalho li a{
-        font-size: 1em;
+        font-size: 13px;
     }
 
     .grupo{
