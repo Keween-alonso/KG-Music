@@ -124,7 +124,7 @@ input[type='submit']:hover{
 }
 /*adaptação mobile*/
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
 
     header{
         text-align: center;
