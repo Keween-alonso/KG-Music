@@ -151,7 +151,7 @@ input[type='submit']:hover{
 
     .cabecalho ul{
         padding: 0;
-        margin-left: 9px;
+        margin: 0 10%;
     }
 
     .cabecalho li a{
